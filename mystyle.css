@@ -1,0 +1,25 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 33.33%;
+	background:#eee;
+	border: 1px solid black;
+}
+li a {
+		display: block;
+		text-decoration: none;
+		padding: 15px 25px;
+		color: black;
+}
+li a:hover:not(.home) {
+			background: #555;
+}
+a.home {
+			background:green;
+			color: white;
+}
+p {
+	background: red;
+	color: white;
+}
